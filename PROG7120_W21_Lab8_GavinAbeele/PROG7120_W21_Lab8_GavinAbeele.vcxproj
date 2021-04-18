@@ -143,11 +143,18 @@
     <ClCompile Include="NearestNeighbor.cpp" />
     <ClCompile Include="Orientation.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TrainData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AnotherClassifier.h" />
     <ClInclude Include="NearestNeighbor.h" />
-    <ClInclude Include="Orentation.h" />
+    <ClInclude Include="Orientation.h" />
+    <ClInclude Include="TrainData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\Downloads\testingData.txt" />
+    <Text Include="..\..\..\..\..\Downloads\trainingData.txt" />
+    <Text Include="..\..\..\..\..\Downloads\unknownData.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

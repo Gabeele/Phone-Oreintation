@@ -27,6 +27,9 @@
     <ClCompile Include="Orientation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TrainData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NearestNeighbor.h">
@@ -35,8 +38,22 @@
     <ClInclude Include="AnotherClassifier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Orentation.h">
+    <ClInclude Include="Orientation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TrainData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\Downloads\unknownData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\..\Downloads\testingData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\..\Downloads\trainingData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
