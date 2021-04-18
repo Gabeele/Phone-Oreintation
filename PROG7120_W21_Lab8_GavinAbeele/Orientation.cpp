@@ -13,6 +13,14 @@ Orientation::Orientation(double x, double y, double z) {
 
 }
 
+Orientation::Orientation(double x, double y, double z, int orientation) {
+	this->x = x;
+	this->y = y;
+	this->z = z;
+	this->orientation = orientation;
+
+}
+
 void Orientation::setOrientation(int orientation) {
 
 	this->orientation = orientation;

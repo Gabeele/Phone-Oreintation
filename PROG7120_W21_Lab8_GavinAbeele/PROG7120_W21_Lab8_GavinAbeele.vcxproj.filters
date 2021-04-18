@@ -46,14 +46,14 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\..\Downloads\unknownData.txt">
-      <Filter>Resource Files</Filter>
+    <Text Include="testingData.txt">
+      <Filter>Source Files</Filter>
     </Text>
-    <Text Include="..\..\..\..\..\Downloads\testingData.txt">
-      <Filter>Resource Files</Filter>
+    <Text Include="trainingData.txt">
+      <Filter>Source Files</Filter>
     </Text>
-    <Text Include="..\..\..\..\..\Downloads\trainingData.txt">
-      <Filter>Resource Files</Filter>
+    <Text Include="unknownData.txt">
+      <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
 </Project>

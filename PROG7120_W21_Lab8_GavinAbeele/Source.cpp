@@ -1,16 +1,16 @@
+#define TRAINING_LENGTH 175
 
-
-
-#include <iostream>
-
-#include "NearestNeighbor.h"
+#include "TrainData.h"
 
 using namespace std;
 
 int main() {
 
+	Orientation* array[TRAINING_LENGTH];
 
 
+
+	
 
 
 

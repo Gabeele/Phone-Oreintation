@@ -3,14 +3,14 @@
 #include "Orientation.h"
 
 class NearestNeighbor:public Orientation{
-	Orientation NN;
+	Orientation* NN;
 
 public:
 
-	NearestNeighbor() {
-		
-	}
+	NearestNeighbor();
 
-	void setNN(Orientation& orientation);
+	void setNN(Orientation* orientation);
+
+	
 
 };
