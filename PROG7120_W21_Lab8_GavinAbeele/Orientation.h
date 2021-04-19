@@ -3,13 +3,11 @@
 #define NULL_ORIENTATION -1
 
 class Orientation {
-protected:
+public:
 	double x;
 	double y;
 	double z;
 	int orientation = NULL_ORIENTATION;
-
-public:
 
 	Orientation();
 

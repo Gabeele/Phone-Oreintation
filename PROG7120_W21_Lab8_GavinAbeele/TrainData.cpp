@@ -1,9 +1,9 @@
 #include "TrainData.h"
 
 
-void Train::trainArray(Orientation* trainArray[]) {
+void trainArray(Orientation* trainArray[]) {
 
-	string fileName = "trainingData";
+	string fileName = "trainingData.txt";
 
 	ifstream file;
 
@@ -44,3 +44,4 @@ void Train::trainArray(Orientation* trainArray[]) {
 	}
 
 }
+

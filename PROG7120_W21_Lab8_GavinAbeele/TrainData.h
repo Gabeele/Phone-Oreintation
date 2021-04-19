@@ -13,7 +13,8 @@ class Train: public Orientation {
 
 public:
 
-	void trainArray(Orientation* trainArray[]);
 
 
 };
+
+	void trainArray(Orientation* trainArray[]);
