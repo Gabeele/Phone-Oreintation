@@ -25,7 +25,7 @@ void setNN(Orientation* o, Orientation* trainArray[]) {
 
 		double length = sqrt((pow((x1 - x2), 2) + pow((y1 - y2), 2) + pow((z1 - z2), 2)));
 
-		if (length < nearestLength) {
+		if (length <= nearestLength) {
 			nearest = trainArray[i];
 			nearestLength = length;
 		}
