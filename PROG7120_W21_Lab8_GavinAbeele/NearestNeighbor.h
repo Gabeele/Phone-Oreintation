@@ -1,5 +1,7 @@
 #pragma once
 
+#define TRAINING_LENGTH 175
+
 #include <math.h>
 #include <iostream>
 
@@ -14,7 +16,6 @@ public:
 
 	NearestNeighbor();
 
-	void setNN(Orientation* orientation, Orientation* trainArray[]);
-
-
 };
+
+	void setNN(Orientation* orientation, Orientation* trainArray[]);

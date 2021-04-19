@@ -1,6 +1,7 @@
 #define TRAINING_LENGTH 175
 
 #include "TrainData.h"
+#include "NearestNeighbor.h"
 
 using namespace std;
 
@@ -14,9 +15,9 @@ void checkUserInput() {
 
 int main() {
 
-	Orientation* hello[TRAINING_LENGTH];
+	Orientation* arr[TRAINING_LENGTH];
 
-	trainArray(hello);
+	trainArray(arr);
 
 	double x, y, z;
 
@@ -37,7 +38,9 @@ int main() {
 
 	Orientation o(x, y, z);
 
+	setNN(&o, arr);
 
+	cout << "x: " << o.x << "\ty: " << o.y << "\tz: " << o.x << "\tOrientation: " << o.orientation << endl;
 
 
 

@@ -10,11 +10,11 @@ NearestNeighbor::NearestNeighbor() {
 
 }
 
-void NearestNeighbor::setNN(Orientation* o, Orientation* trainArray[]) {
-	Orientation* nearest; 
+void setNN(Orientation* o, Orientation* trainArray[]) {
+	Orientation* nearest = NULL; 
 	double nearestLength = 0;
 
-	for (int i = 0; i < (sizeof(trainArray) / sizeof(o)); i++) {
+	for (int i = 0; i < TRAINING_LENGTH; i++) {
 		double x1 = o->x;
 		double y1 = o->y;
 		double z1 = o->z;
@@ -27,6 +27,9 @@ void NearestNeighbor::setNN(Orientation* o, Orientation* trainArray[]) {
 
 		if (length < nearestLength) {
 			nearest = trainArray[i];
+			nearestLength = length;
+		}
+		else if (i == 0) {
 			nearestLength = length;
 		}
 
